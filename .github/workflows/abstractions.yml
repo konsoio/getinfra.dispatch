@@ -1,4 +1,4 @@
-name: Deployment
+name: Getinfra.Dispatch.Abstractions
 
 on:
   push:
