@@ -1,0 +1,3 @@
+These class libraries are designed to work with messaging queues from different providers. It provides a standardized interface for sending and receiving messages, allowing developers to easily switch between different queue providers without having to change their code. It also includes features for message serialization, retrying failed messages, and monitoring queue metrics. With this library, developers can quickly integrate messaging queue functionality into their applications, regardless of which provider they are using.
+
+The library includes adapters for popular queue providers such as RabbitMQ.

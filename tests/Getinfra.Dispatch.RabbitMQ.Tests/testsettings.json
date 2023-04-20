@@ -1,0 +1,26 @@
+{
+  "Getinfra.Dispatch": {
+    "RabbitMq": {
+      "Publisher": {
+        "Host": "rabbitmq.default.svc.cluster.local",
+        "Port": 5672,
+        "Username": "queue-publisher",
+        "Password": "ppqEHU8aiYQsUBQGQsCA",
+        "Exchange": "ariel.dev.direct",
+        "ExchangeType": "direct",
+        "Queue": "ariel.dev",
+        "RoutingKey": "dev-key"
+      },
+      "Consumer": {
+        "Host": "rabbitmq.default.svc.cluster.local",
+        "Port": 5672,
+        "Username": "queue-consumer",
+        "Password": "ppqEHU8aiYQsUBQGQsCA",
+        "Exchange": "ariel.dev.direct",
+        "ExchangeType": "direct",
+        "Queue": "ariel.dev",
+        "RoutingKey": "dev-key"
+      }
+    }
+  }
+}
